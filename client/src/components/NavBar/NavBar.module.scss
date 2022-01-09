@@ -1,0 +1,98 @@
+@media (max-width: 1950px) {
+  .main {
+    display: flex;
+    justify-content: space-around;
+
+    .wrap {
+      width: 1950px;
+      .container {
+        display: flex;
+        justify-content: space-between;
+        .contact {
+          display: flex;
+          .phone {
+            width: 20px;
+            margin-right: 5px;
+            margin-top: -3px;
+          }
+        }
+
+        .link {
+          font-size: 18px;
+          margin-right: 1rem;
+        }
+      }
+    }
+    .button {
+      display: none;
+      .menu {
+        display: none;
+      }
+    }
+  }
+  .btn {
+    display: none;
+  }
+  .minicart {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .main {
+    .wrap {
+      max-width: 769px;
+      .container {
+        .link {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 645px) {
+  .main {
+    .wrap {
+      width: 100%;
+      max-width: 645px;
+      .container {
+        .link {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .main {
+    .wrap {
+      display: none;
+      .container {
+        .link {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .button {
+      display: block;
+      width: 90px;
+      height: 80px;
+      .menu {
+        margin-left: 1rem;
+        width: 55px;
+        display: flex;
+        margin: 0 auto;
+      }
+    }
+    .btn {
+      display: block;
+      height: 80px;
+      margin-top: 10px;
+    }
+  }
+  .minicart {
+    margin-top: 25px;
+  }
+}

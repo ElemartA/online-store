@@ -1,0 +1,15 @@
+.wrap {
+  width: 650px;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-height: calc(90.6vh - 50px);
+  .contact {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .item {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+}
